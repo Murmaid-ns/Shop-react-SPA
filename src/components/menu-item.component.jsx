@@ -10,7 +10,7 @@ const Menu = () => {
                 const {title, imageUrl, id, size} = element;
                 console.log(imageUrl);
                 return (
-                    <div className={`menu-item ${size || ''}`} key={id}>
+                    <a href="#" className={`menu-item ${size || ''}`} key={id}>
                         <div
                             className="background-image"
                             style={{backgroundImage: `url(${imageUrl})`}}
@@ -19,7 +19,7 @@ const Menu = () => {
                             <span className="title">{title.toUpperCase()}</span>
                             <span className="subtitle">SHOP NOW</span>
                         </div>
-                    </div>);
+                    </a>);
             })}
         </section>)
 

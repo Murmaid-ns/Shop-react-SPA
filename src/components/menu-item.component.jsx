@@ -4,21 +4,24 @@ import '../assets/styles/menu-item.styles.scss'
 import {SECTIONS_DATA} from "../data/sections.data";
 
 const Menu = () => {
-  return (
-    <div className='directory-menu'>
-      {SECTIONS_DATA.map((element) => {
-        console.log(element)
-        const {title, imageUrl, id, size} = element;
-        return(
-          <div className={`menu-item ${size}`} key={id}>
-            <img src={imageUrl} alt="" className="background-image"/>
-            <div className="content">
-              <div className="title">{title.toUpperCase()}</div>
-              <div className="subtitle">SHOP NOW</div>
-            </div>
-          </div>);
-      })}
-    </div>)
+    return (
+        <section className='directory-menu'>
+            {SECTIONS_DATA.map((element) => {
+                const {title, imageUrl, id, size} = element;
+                console.log(imageUrl);
+                return (
+                    <div className={`menu-item ${size || ''}`} key={id}>
+                        <div
+                            className="background-image"
+                            style={{backgroundImage: `url(${imageUrl})`}}
+                        />
+                        <div className="content">
+                            <span className="title">{title.toUpperCase()}</span>
+                            <span className="subtitle">SHOP NOW</span>
+                        </div>
+                    </div>);
+            })}
+        </section>)
 
 }
 

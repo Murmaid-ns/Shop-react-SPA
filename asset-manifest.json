@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Shop-react-SPA/static/css/main.07f75da4.chunk.css",
-    "main.js": "/Shop-react-SPA/static/js/main.d7ad72bf.chunk.js",
-    "main.js.map": "/Shop-react-SPA/static/js/main.d7ad72bf.chunk.js.map",
+    "main.css": "/Shop-react-SPA/static/css/main.5233f675.chunk.css",
+    "main.js": "/Shop-react-SPA/static/js/main.b6086485.chunk.js",
+    "main.js.map": "/Shop-react-SPA/static/js/main.b6086485.chunk.js.map",
     "runtime~main.js": "/Shop-react-SPA/static/js/runtime~main.12aa270e.js",
     "runtime~main.js.map": "/Shop-react-SPA/static/js/runtime~main.12aa270e.js.map",
-    "static/js/2.be7ddbfc.chunk.js": "/Shop-react-SPA/static/js/2.be7ddbfc.chunk.js",
-    "static/js/2.be7ddbfc.chunk.js.map": "/Shop-react-SPA/static/js/2.be7ddbfc.chunk.js.map",
+    "static/js/2.355deb3a.chunk.js": "/Shop-react-SPA/static/js/2.355deb3a.chunk.js",
+    "static/js/2.355deb3a.chunk.js.map": "/Shop-react-SPA/static/js/2.355deb3a.chunk.js.map",
     "index.html": "/Shop-react-SPA/index.html",
-    "precache-manifest.74c0130306f6b20118c25ff71b6b5e3d.js": "/Shop-react-SPA/precache-manifest.74c0130306f6b20118c25ff71b6b5e3d.js",
+    "precache-manifest.428cb6f359c714c538c16d55f06c8d46.js": "/Shop-react-SPA/precache-manifest.428cb6f359c714c538c16d55f06c8d46.js",
     "service-worker.js": "/Shop-react-SPA/service-worker.js",
-    "static/css/main.07f75da4.chunk.css.map": "/Shop-react-SPA/static/css/main.07f75da4.chunk.css.map",
+    "static/css/main.5233f675.chunk.css.map": "/Shop-react-SPA/static/css/main.5233f675.chunk.css.map",
     "static/media/crown.svg": "/Shop-react-SPA/static/media/crown.ed28accb.svg",
     "static/media/shopping-bag.svg": "/Shop-react-SPA/static/media/shopping-bag.09e6f5e7.svg"
   }

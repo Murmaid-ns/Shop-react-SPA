@@ -21,9 +21,8 @@ const CollectionItem = ({imageUrl, name, price, id}) => {
         <span className="name">{name}</span>
         <span className="price">{price}</span>
       </div>
-      <button type="button" className="custom-button" onClick={() => {
-        addItem(product)
-      }}>ADD TO CART
+      <button type="button" className="custom-button" onClick={() => {addItem(product)}}>
+          ADD TO CART
       </button>
     </div>
 

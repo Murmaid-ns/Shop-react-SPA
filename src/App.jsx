@@ -7,13 +7,13 @@ import Header from "./components/header/header.component";
 import Collection from "./pages/collection/collection.component";
 import Shop from "./pages/shop/shop.component";
 import SignIn from "./pages/sign-in/sign-in.component";
-import CheckoutItem from "./components/checkout/checkout.component";
+import CheckoutPage from "./pages/checkout-page/checkout.component";
 
 const App = () => (
   <div>
     <Header/>
     <Switch>
-      <Route path="/checkout" component={CheckoutItem}/>
+      <Route path="/checkout" component={CheckoutPage}/>
       <Route path="/signIn" component={SignIn}/>
       <Route path="/shop/:collection" component={Collection}/>
       <Route path="/shop" component={Shop}/>

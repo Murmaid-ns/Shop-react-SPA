@@ -3,13 +3,13 @@ import Bag from "../../assets/shopping-bag.svg";
 import './cart-icon.styles.scss';
 import './cart-dropdown.styles.scss';
 import './cart-item.styles.scss'
-// import {useSelector} from "react-redux";
-// import {selectCartItems, selectCartItemsQuantity} from "../../redux/cart/cart.selectors";
+import {useSelector} from "react-redux";
+import {selectCartItemsQuantity} from "../../redux/cart/cart.selectors";
 import {useState} from 'react'
 import CartDropdown from "./cart-dropdown.component";
 
 const Cart = () => {
-        const cartItems = 0;
+        const cartItems = useSelector(selectCartItemsQuantity);
     const [isVisible, setOpenCart] = useState(false);
     return (
         <div>
